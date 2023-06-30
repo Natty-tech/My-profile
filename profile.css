@@ -1,0 +1,127 @@
+body{
+    background-color: #87CEFA;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+span{
+    color:#002147;
+}
+.top{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    color:#002147;
+    background: transparent;
+    font-weight: bold;
+    z-index: 10;
+
+}
+.top ic{
+    position: relative;
+    top: 20px;
+    left: 100px;
+
+}
+a{
+    color:#002147;
+    text-decoration: none;
+}
+.top nav ul li, .top ic{
+    display:inline-block;
+    margin-right: 50px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+.top nav ul li:hover, a:hover{
+    color:#1da1f2;
+}
+
+.me{
+    position: relative;
+    display: inline-block;
+    margin-top: 110px;
+    top: 120px;
+    left: 50px;
+}
+.me h1{
+    border-bottom: #002147 solid;
+}
+.me p{
+    width: 400px;
+    height: 200px;
+}
+img{
+    width:300px;
+    position: relative;
+    top: 120px;
+    left: 480px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #002147;
+}
+.skill{
+    width: 99%;
+    margin-left: 6px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #002147;
+}
+.skill h2{
+
+    justify-self: center;
+    align-self: flex-start;
+}
+#skill{
+    display: flex;
+    justify-content: center;
+    color:#002147;
+}
+.skill .skill1, .skill .skill2, .skill .skill3, .skill .skill4, .skill .skill5{
+    padding: 10px;
+    position: relative;
+    width: 400px;
+    border-radius: 10px;
+    transition-delay:1000ms;
+    transition-duration: 1s;
+}
+.fa-brands{
+    margin-right: 10px;
+
+}
+.fa-brands:hover{
+    color:#002147;
+}
+.skill1:hover, .skill4:hover{
+    box-shadow: -5px 10px 10px #87CEFA;
+    transition-delay:800ms;
+    transition-duration: 1s;
+    background-color: #002147;
+    color: #1da1f2;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.skill2:hover{
+    box-shadow: 0px 0px 20px #87CEFA;
+    width: 450px;
+    margin-bottom: 50px;
+    transition-delay:800ms;
+    transition-duration: 1s;
+    background-color: #002147;
+    color: #1da1f2;
+}
+.skill3:hover, .skill5:hover{
+    box-shadow: 5px 10px 10px #87CEFA;
+    transition-delay:800ms;
+    transition-duration: 1s;
+    background-color: #002147;
+    color: #1da1f2;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
